@@ -1,0 +1,16 @@
+[Unit]
+Description=OfficeStatus
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/officestatus
+Environment=PATH=/opt/officestatus/.venv/bin:$PATH
+Environment=PYTHONPATH=/opt/officestatus/.venv/bin
+ExecStart=/opt/officestatus/.venv/bin/python3 /opt/officestatus/officestatus.py
+Restart=on-failure
+Environment=FLASK_CONFIG=production
+
+[Install]
+WantedBy=multi-user.target
