@@ -6,7 +6,7 @@ I have worked from home for a long time.  My home office is right next to the fa
 
 The python application has a built in webserver and GUI interface to both set the status and see what the current status is.
 
-Additionally, I also have a Stream Deck plugin, which not only let's me set the status but also view the status.  Check tha out if you have a Stream Deck.
+Additionally, I also have an [Office Status Stream Deck plugin](https://github.com/mattboston/officestatus-streamdeck), which not only let's me set the status but also view the status.  Check it out if you have a Stream Deck.
 
 Coming Soon... I also have a LoupeDeck and will be looking into creating a LoupeDeck plugin.
 
